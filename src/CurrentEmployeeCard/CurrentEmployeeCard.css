@@ -1,0 +1,56 @@
+
+.e-card {
+    width: 50vw;
+    padding: 2vw 3vw;
+    border-radius: 4px;
+    margin: 20px;
+    border-radius: 10px;
+background-color: #266DAF;
+  }
+  .name{
+    color: #FFF;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 600;
+  }
+
+  .email{
+    color: #FFF;
+    font-size: 20px;
+    font-family: Poppins;
+  }
+  
+  .e-card-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .e-card-body {
+      display: flex;
+      justify-content: space-between;
+    font-size: 16px;
+    color: white;
+  }
+  .e-details{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .e-details p{
+      margin: 0;
+  }
+  
+  .delete-icon {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  button{
+    background-color: transparent;
+    border: none;
+  }
+  
