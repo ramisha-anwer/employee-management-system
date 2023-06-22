@@ -14,10 +14,18 @@ background-color: #266DAF;
     font-weight: 600;
   }
 
-  .email{
+  .email {
     color: #FFF;
     font-size: 20px;
     font-family: Poppins;
+    font-weight: 300;
+  }
+
+  .phone{
+    color: #FFF;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 300;
   }
   
   .e-card-header {
@@ -52,5 +60,30 @@ background-color: #266DAF;
   button{
     background-color: transparent;
     border: none;
+  }
+
+
+  @media (max-width:768px) {
+    .e-card{
+      width: 60vw;
+      height: 15vw;
+    }
+
+    .name{
+      font-size: 5vw;
+    }
+
+  }
+
+  @media (max-width:425px) {
+    img{
+      height: 30px;
+    }
+    .email{
+      font-size: 10px;
+    }
+        .phone {
+          font-size: 10px;
+        }
   }
   

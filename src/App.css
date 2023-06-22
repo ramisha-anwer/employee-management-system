@@ -27,6 +27,13 @@
   flex-direction: column;
   overflow: scroll;
   align-items: flex-start;
+}
 
-
+@media (max-width:768px) {
+  .employee-list{
+    width: 80%;
+  }
+  .title{
+    font-size: 5vw;
+  }
 }

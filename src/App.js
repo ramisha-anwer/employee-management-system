@@ -8,7 +8,10 @@ import Header from './Header/Header';
 function App() {
   const [idCounter, setIdCounter] = useState(1);
   const [employees, setEmployees] = useState([{
-    firstName:"Ramisha"
+    firstName:"Ramisha",
+    lastName:"Anwer",
+    email:"ramisha@gmail.com",
+    phone:"03368999008"
   }]);
   const addEmployee = (employee) => {
     const newEmployee = { ...employee, id: idCounter };

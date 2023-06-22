@@ -18,7 +18,7 @@ const CurrentEmployeeCard = ({ employee, onDelete }) => {
         <p className='email'>
           {email}
         </p>
-        <p>
+        <p className='phone'>
           {phone}
         </p>
         </div>
